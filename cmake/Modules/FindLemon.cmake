@@ -11,7 +11,7 @@ ELSE(COIN_LEMON_INCLUDE_DIR AND COIN_LEMON_LIBRARIES)
         /usr/include
         /usr/local/include
     )
-    FIND_LIBRARY(COIN_LEMON_LIBRARIES NAMES emon libemon
+    FIND_LIBRARY(COIN_LEMON_LIBRARIES NAMES lemon liblemon
         PATHS
         /usr/lib
         /usr/local/lib

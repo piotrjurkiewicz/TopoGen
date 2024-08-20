@@ -5,6 +5,8 @@ project(topoGen)
 set (topoGen_VERSION_MAJOR 1)
 set (topoGen_VERSION_MINOR 0)
 
+set(CMAKE_CXX_STANDARD 14)
+
 #
 # CONFIGURATION VARIABLES
 #
